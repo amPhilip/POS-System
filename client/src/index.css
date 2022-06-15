@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.product-btn {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.product-btn button {
+  display: block;
+  margin: 0 auto;
+  background-color: #001e28;
+  color: #ffffff;
+  box-shadow: 0 0 5px #001e28;
+  transition: all 0.5s;
+  border: none;
+}
+
+.product-btn button:hover {
+  background-color: #ffffff;
+  color: #001e28;
+}
+
+.ant-layout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-items {
+  position: relative;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.ant-layout-header .anticon svg {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.cart-items span {
+  font-size: 18px;
+}
+
+.cart-badge {
+  padding: 5px;
+  top: -10px;
+  right: -25px;
+  background-color: #001e28;
+  color: #ffffff;
+  border-radius: 50px;
+}
+
+.cart-minus {
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.cart-minus:hover {
+  filter: drop-shadow(0 0 2px #001e28);
+  color: #ffffff;
+}
+
+.cart-plus {
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.cart-plus:hover {
+  filter: drop-shadow(0 0 2px #001e28);
+  color: #ffffff;
+}
+
+.cart-quantity {
+  font-size: 20px;
+  vertical-align: bottom;
+}
+
+.cart-action {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.cart-action:hover {
+  filter: drop-shadow(0 0 2px #ff0000);
+  color: #ffffff;
+}
+
+.loading {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  text-align: center;
+  letter-spacing: 1.3px;
+  color: #001e28;
+}
+
+.cart-edit {
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-left: 30px;
+}
+
+.cart-edit.eye {
+  margin-left: unset;
+}
+
+.cart-edit:hover {
+  filter: drop-shadow(0 0 2px #0000ff);
+  color: #ffffff;
+}
+
+.add-new {
+  display: block !important;
+  margin: 0 0 15px auto !important;
+  background-color: #001e28 !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 5px #001e28 !important;
+  transition: all 0.5s;
+  border: none !important;
+}
+
+.add-new:hover {
+  background-color: #ffffff !important;
+  color: #001e28 !important;
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.categoryFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 30px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.category-active {
+  box-shadow: 0 0 5px #afafaf;
+  border-radius: 5px;
+}
+
+.categoryName {
+  text-transform: capitalize;
+  letter-spacing: 1.3px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form h2 {
+  letter-spacing: 2px;
+  color: #001e28;
+  font-size: 1.6rem;
+}
+
+.form p {
+  letter-spacing: 1.3px;
+  color: #001e28;
+  font-size: 1.1rem;
+}
+
+.form-group {
+  box-shadow: 0 0 2px #001e28;
+  padding: 10px 15px;
+}
+
+.form-group input {
+  border: none;
+  outline: none !important;
+  border-bottom: 1px solid #001e28;
+  width: 400px;
+  height: 40px;
+  padding: 5px 15px;
+}
+
+.form-group input:focus,
+.form-group input:hover {
+  border-color: #001e28;
+}
+
+.form-other {
+  color: #001e28;
+  letter-spacing: 1.3px;
+  transition: all .1s ease-in-out;
+}
+
+.form-other:hover {
+  color: #03141a;
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+.subTotal {
+  margin-top: 40px;
+  text-align: right;
+}
+
+.cardHeader h2 {
+  letter-spacing: 1.3px;
+  color: #001e28;
+}
+
+.cardHeader span {
+  display: flex;
+  justify-content: center;
+  color: #001e28;
+  letter-spacing: 1.3px;
+}
+
+.cardBody {
+  margin-top: 30px;
+}
+
+.cardBody .group {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #001e28;
+  padding-top: 10px;
+}
+
+.footerCard {
+  margin: 15px 0;
+  box-shadow: 0 0 15px #afafaf;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.cardFooter h4 {
+  margin-top: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.footerCard .group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerCardTotal {
+  width: 100px;
+  margin: 25px 0 0 auto;
+}
+
+.footerCardTotal .group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerThanks {
+  text-align: center;
+  margin-top: 10px;
+  color: #001e28;
+}
+
+.bills-btn-add {
+  margin-top: 15px;
+}
+
+.bills-btn-add .add-new {
+  font-size: 12px !important;
+  padding: 5px !important;
+}
