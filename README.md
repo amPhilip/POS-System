@@ -15,7 +15,7 @@ git clone <url of the repository>
 ```
 3. Once the prject is in the Code Editor, Run:
 ```javascript=16
-npm instal /npm i
+npm install /npm i
 ```
 4. cd into Client folder and repeat step 3 and run:
 ```javascript=16
