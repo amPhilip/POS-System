@@ -1,4 +1,3 @@
-![Group 1](https://user-images.githubusercontent.com/40393613/178875220-72d94698-0fc2-4b1f-b8c2-51d10cb42ff1.png)<br/>
 POS SYSTEM
 ===
 ## MERN STACK Application
@@ -25,7 +24,8 @@ yarn start
 ```javascript=16
 npm run server
 ```
-6.Add your own ENV Config Files
+ <br/>
+ 6.Add your own ENV Config Files
 
 
 ## NB:
@@ -38,5 +38,5 @@ Anyone can use to repository as they deem it Fit. I accept anyone to fork this r
 **Find this Project incomplete? Or Having Some Errors** Kindly Leave a comment!
 :::
 
-###### tags: `Templates` `Documentation`
-
+###### tags: `Templates` `Documentation`<br/>
+![Group 1](https://user-images.githubusercontent.com/40393613/178875220-72d94698-0fc2-4b1f-b8c2-51d10cb42ff1.png)
