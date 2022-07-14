@@ -38,4 +38,6 @@ Anyone can use to repository as they deem it Fit. I accept anyone to fork this r
 :::
 
 ###### tags: `Templates` `Documentation`
+![pos](https://user-images.githubusercontent.com/40393613/178869111-b19ce4f2-6113-485e-8a1b-390ecadb5f9f.PNG)
+![pos system](https://user-images.githubusercontent.com/40393613/178869125-d31a393e-4d2e-4e7e-9cbf-ef2e358d708f.PNG)
 
