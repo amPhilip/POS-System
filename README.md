@@ -1,6 +1,7 @@
 POS SYSTEM
 ===
-## MERN STACK Application
+## MERN STACK Application<br/>
+![Group 1](https://user-images.githubusercontent.com/40393613/178875220-72d94698-0fc2-4b1f-b8c2-51d10cb42ff1.png)
 
 ## Usage Guide
 
@@ -39,4 +40,3 @@ Anyone can use to repository as they deem it Fit. I accept anyone to fork this r
 :::
 
 ###### tags: `Templates` `Documentation`<br/>
-![Group 1](https://user-images.githubusercontent.com/40393613/178875220-72d94698-0fc2-4b1f-b8c2-51d10cb42ff1.png)
